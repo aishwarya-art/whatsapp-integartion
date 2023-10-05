@@ -10,8 +10,8 @@ class Twilio_lib {
     public function __construct()
     {
         $CI =& get_instance();
-        $sid = $CI->config->item('AC2dfd09a56e18d8f1447e90f1966eb03c');
-        $token = $CI->config->item('e7206afd8cd7fdfbd9f0907208ef34e1');
+        $sid = $CI->config->item('add sid');
+        $token = $CI->config->item('add token id');
         $this->twilio = new Client($sid, $token);
     }
 
